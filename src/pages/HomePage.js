@@ -1,3 +1,5 @@
+/* This page coitain a visual part of the main page */
+
 import React from 'react';
 
 import './styles/HomePage.css';

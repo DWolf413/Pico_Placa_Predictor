@@ -1,4 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
+
+/* This componet coitan the result of the consult, this render with a specific condition */
+
 import React from 'react';
 
 import './styles/ResultState.css';

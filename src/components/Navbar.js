@@ -1,3 +1,6 @@
+
+/* Componet that coitain a Navbar */
+
 import React from 'react';
 import './styles/Navbar.css';
 

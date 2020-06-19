@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/button-has-type */
+
+/* This componet cotain the form with the data that user wants search*/
+
 import React from 'react';
 
 import './styles/FormConsult.css';

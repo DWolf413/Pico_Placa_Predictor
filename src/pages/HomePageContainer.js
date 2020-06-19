@@ -1,6 +1,9 @@
 /* eslint-disable radix */
 /* eslint-disable react/no-access-state-in-setstate */
 /* eslint-disable react/destructuring-assignment */
+
+/* This part contain a logical part of the web application*/
+
 import React from 'react';
 import HomePage from './HomePage';
 
@@ -32,6 +35,7 @@ class HomePageContainer extends React.Component {
     };
   };
 
+  // Events of forms
   handleChange = (e) => {
     this.setState({
       form: {
@@ -51,6 +55,7 @@ class HomePageContainer extends React.Component {
     this.findDay();
   };
 
+  //Funtion to search a date if the neumber of plate license
   findDay() {
     this.day = new Date(this.state.form.Date).getDay();
     this.numberPlate = parseInt(this.state.form.Plate.substr(-1));
@@ -72,6 +77,8 @@ class HomePageContainer extends React.Component {
     }
   }
 
+  //If the car is in the select they. It funtion search a hpur thart the user wants to know
+  //Exsit several condionarals due to of the hpur that the user search
   findHour() {
     this.hour =
       parseFloat(this.state.form.Hour.substr(0, 2)) +
@@ -161,6 +168,7 @@ class HomePageContainer extends React.Component {
     }
   }
 
+  // Send the data to main page to share data with the componets
   render() {
 
     return (
