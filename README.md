@@ -19,3 +19,11 @@ git clone hhttps://github.com/DWolf413/Pico_Placa_Predictor.git
 npm install
 npm run start
 ```
+
+---
+
+**NOTE**
+
+This application was created with React
+
+---
