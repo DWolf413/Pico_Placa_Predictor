@@ -1,0 +1,47 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: inherit;
+}
+
+.form__group {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.form__group > label {
+	font-size: 18px;
+}
+
+.form__group-control {
+	background-color: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid white;
+	outline: none;
+	margin: 10px 0px 20px 0px;
+	padding: 5px 20px;
+	font-size: 15px;
+	color: white;
+}
+
+::placeholder {
+	color: white;
+}
+
+.btn-primary {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	border-radius: 25px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Muli", sans-serif;
+	height: 50px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
