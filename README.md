@@ -1,6 +1,6 @@
 # PICO Y PLACA PREDICTOR 🚙
 
-Pico y Placa Predictor is the platform that allows you to know whether or not your car can circulate through the streets of Quito, due to your restriction of peak and plate
+Pico y Placa Predictor is the platform that allows you to know whether or not your car can circulate through the streets of Quito, due to your restriction of peak and plate.
 
 ## 1. Descripción 🗒
 
