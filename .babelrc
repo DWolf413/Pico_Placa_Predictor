@@ -1,21 +1,4 @@
-// `.babelrc in `/test`
 {
-	"presets": [
-		[
-			"@babel/env",
-			{
-				"modules": false
-			}
-		],
-		"@babel/react"
-	]
-	// "plugins": ["@babel/transform-runtime", "@babel/proposal-class-properties"]
-	// "plugins": [
-	// 	[
-	// 		"@babel/plugin-proposal-class-properties",
-	// 		{
-	// 			"loose": true
-	// 		}
-	// 	]
-	// ]
+	"presets": ["@babel/env", "@babel/react"],
+	"plugins": ["@babel/transform-runtime", "@babel/proposal-class-properties"]
 }

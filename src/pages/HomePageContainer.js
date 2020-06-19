@@ -32,24 +32,24 @@ class HomePageContainer extends React.Component {
     };
   };
 
-  // handleChange = (e) => {
-  //   this.setState({
-  //     form: {
-  //       ...this.state.form,
-  //       [e.target.name]: e.target.value,
-  //     },
-  //   });
-  // };
+  handleChange = (e) => {
+    this.setState({
+      form: {
+        ...this.state.form,
+        [e.target.name]: e.target.value,
+      },
+    });
+  };
 
-  // handleClick = (e) => {
-  //   console.log('Button was clicked');
-  // };
+  handleClick = (e) => {
+    console.log('Button was clicked');
+  };
 
-  // handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log('Form was submmited');
-  //   this.findDay();
-  // };
+  handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form was submmited');
+    this.findDay();
+  };
 
   findDay() {
     this.day = new Date(this.state.form.Date).getDay();
