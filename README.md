@@ -8,7 +8,7 @@ For the use of the application, you only have to enter the plate of your car and
 
 ## 2. Installation 🛠
 
-To install the application
+To install the application.
 
 1.  Clone the repository
 2.  Install project dependencies
