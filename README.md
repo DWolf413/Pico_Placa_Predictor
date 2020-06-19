@@ -12,7 +12,7 @@ To install the application
 
 1.  Clone the repository
 2.  Install project dependencies
-3.  Run the application
+3.  Run the application and enjoy
 
 ```shell
 git clone hhttps://github.com/DWolf413/Pico_Placa_Predictor.git
