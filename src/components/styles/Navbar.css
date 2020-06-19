@@ -1,0 +1,27 @@
+.Navbar {
+	width: 100%;
+	padding: 0.5rem 0;
+	background-color: #03045e;
+}
+
+.container__fluid {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: #f4f4f4;
+}
+
+.Navbar__fluid-logo {
+	margin-right: 0.5rem;
+	width: 219px;
+	height: 58px;
+}
+
+.font-weight-bold {
+	font-size: 13px;
+}
+
+.font-weight-light {
+	font-size: 12px;
+	padding: 0px 90px;
+}
