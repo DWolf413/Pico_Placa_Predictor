@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/button-has-type */
 import React from 'react';
 
 import './styles/FormConsult.css';
